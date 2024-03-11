@@ -14,7 +14,7 @@ def draw_star(size):
         star.forward(size)
         star.right(144)
 
-for _ in range(100):
+for _ in range(100): //total bintang
     x = random.randint(-screen.window_width()//2, screen.window_width()//2)
     y = random.randint(-screen.window_height()//2, screen.window_height()//2)
     size = random.randint(5, 20)
